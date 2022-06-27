@@ -15,6 +15,10 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  overflow-x: hidden;
+}
 /* End of Common style */
 
 /* Section -1 */
@@ -25,12 +29,12 @@ html {
 }
 
 .floating-bg {
-  width: 70rem;
-  height: 70rem;
+  width: 150vw;
+  height: 150vw;
   background-color: rgba(50, 231, 255, 0.8);
   position: absolute;
-  top: 15%;
-  left: calc(50% - 35rem);
+  top: -125vw;
+  left: calc(50% - 75rem);
   border-radius: 45%;
 }
 
